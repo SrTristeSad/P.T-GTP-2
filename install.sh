@@ -12,7 +12,7 @@ sudo pip3 install tqdm
 python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 
 # Clonar o repositório do seu painel
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/SrTristeSad/P.T-GTP-2.git
 
 # Criar as pastas pré-definidas
 mkdir -p seu-repositorio/entrada_txt
