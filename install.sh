@@ -20,7 +20,7 @@ mkdir -p seu-repositorio/saida_pre_process
 mkdir -p seu-repositorio/saida_tokenizador
 
 # Entrar no diretório do painel
-cd seu-repositorio
+cd SrTriste/P.T-GTP-2
 
 # Dar permissão de execução para o painel
 chmod +x panel.sh
