@@ -9,10 +9,10 @@ show_menu() {
     echo -e "\e[1m#                                                        #\e[0m"
     echo -e "\e[1m##########################################################\e[0m"
     echo -e "\e[1m#                                                        #\e[0m"
-    echo -e "\e[1m#      \e[32m1. pré-processamento\e[0m                                #\e[0m"
-    echo -e "\e[1m#      \e[32m2. tokenizador\e[0m                                      #\e[0m"
-    echo -e "\e[1m#      \e[32m3. Apagar arquivos\e[0m                                   #\e[0m"
-    echo -e "\e[1m#      \e[32m4. Sair\e[0m                                             #\e[0m"
+    echo -e "\e[1m#      \e[32m1. Pré-processo\e[0m                        #\e[0m"
+    echo -e "\e[1m#      \e[32m2. Tokenização\e[0m                         #\e[0m"
+    echo -e "\e[1m#      \e[32m3. Apagar arquivos\e[0m                     #\e[0m"
+    echo -e "\e[1m#      \e[32m4. Sair\e[0m                                #\e[0m"
     echo -e "\e[1m#                                                        #\e[0m"
     echo -e "\e[1m##########################################################\e[0m"
 }
@@ -35,10 +35,10 @@ while true; do
             ;;
         3)
             echo -e "\e[1mApagando arquivos...\e[0m"
-            rm -rf ./input_folder/*
-            rm -rf ./output_folder/*
-            rm -rf ./txts/*
-            rm -rf ./processed_folder/*
+            rm -rf ./entrada_txt/*
+            rm -rf ./saida_pre_process/*
+    
+
             ;;
         4)
             echo -e "\e[1mSaindo...\e[0m"
