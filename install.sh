@@ -15,9 +15,9 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 git clone https://github.com/SrTristeSad/P.T-GTP-2.git
 
 # Criar as pastas pré-definidas
-mkdir -p P.T-GTP-2/entrada_txt
-mkdir -p P.T-GTP-2/saida_pre_process
-mkdir -p P.T-GTP-2/saida_tokenizador
+mkdir -p entrada_txt
+mkdir -p saida_pre_process
+mkdir -p saida_tokenizador
 
 # Entrar no diretório do painel
 cd P.T-GTP-2
