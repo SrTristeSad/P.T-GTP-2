@@ -3,6 +3,8 @@
 # Instalar o Python3 e o pip
 sudo apt-get update
 sudo apt-get install -y python3 python3-pip
+sudo apt-get install git
+
 
 # Instalar as dependências necessárias
 sudo pip3 install nltk
